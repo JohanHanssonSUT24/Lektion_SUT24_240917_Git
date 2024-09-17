@@ -5,7 +5,10 @@
         static void Main(string[] args)
         {
             
-            Console.WriteLine("Här kommer den nay raden.");
+            Console.WriteLine("Welcome to my new game!");
+            Console.WriteLine("Choose a nicname");
+            string userName = Console.ReadLine();
+            Console.WriteLine($"Welcome {userName}!");
         }
     }
 }
